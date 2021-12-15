@@ -1,7 +1,3 @@
-* {
-    /* border: solid white 1px; */
-}
-
 body {
     background-image: url("images/homepage.png");
     background-repeat: no-repeat;
@@ -113,13 +109,15 @@ li {
     #imageRightHome {
         position: absolute;
         right: 0;
+        padding-top: 90px;
         padding-right: 10px;
         height: fit-content;
     }
 
     #imageLeftHome {
+        position: absolute;
         display: inline-block;
-        height: 99px;
+        height: 80px;
         width: fit-content;
     }
 
@@ -129,6 +127,7 @@ li {
     }
 
     #ishtar {
+        padding-top: 15px;
         width: 80vw;
         height: 50vw;
     }
@@ -196,7 +195,7 @@ li {
     }
 
 /* for desktop */
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 900px) {
     #headerContent{
         display: inline-block;
         height: fit-content;
@@ -287,6 +286,8 @@ li {
         display: inline-block;
         height: fit-content;
         width: fit-content;
+        position: relative;
+        padding: 0;
     }
 
     #imageRightHome {
