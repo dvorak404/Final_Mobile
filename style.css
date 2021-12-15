@@ -1,0 +1,351 @@
+* {
+    /* border: 1px solid blue; */
+}
+
+body {
+    background-image: url("images/homepage.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: auto;
+    height: auto;
+}
+
+p {
+    font-size: 1.4em;
+    color: rgb(255, 255, 255);
+    text-shadow: -.5px -.5px 0 rgb(0, 0, 0), .5px -.5px 0 rgb(0, 0, 0), -.5px .5px 0 rgb(0, 0, 0), .5px .5px 0 rgb(0, 0, 0);
+}
+
+h1 {
+    color: rgb(0, 0, 0);
+    text-shadow: -.5px -.5px 0 rgb(252, 252, 252), .5px -.5px 0 rgb(252, 252, 252), -.5px .5px 0 rgb(252, 252, 252), .5px .5px 0 rgb(252, 252, 252);
+    letter-spacing: 2px;
+    font-size: 4em;
+    line-height: 1;
+    text-align: center;
+}
+
+h2 {
+    color: rgb(0, 0, 0);
+    text-shadow: -.5px -.5px 0 rgb(252, 252, 252), .5px -.5px 0 rgb(252, 252, 252), -.5px .5px 0 rgb(252, 252, 252), .5px .5px 0 rgb(252, 252, 252);
+    letter-spacing: 2px;
+    font-size: 2em;
+    line-height: 1;
+    text-align: left;
+}
+
+li {
+    display: inline;
+}
+
+/* for mobile */
+    #headerContent {
+        width: 83%;
+    }
+
+    .siteLogo {
+        display: inline-block;
+        width: 100%;
+        height: fit-content;
+    }
+
+    #theEye {
+        width: 20%;
+        height: auto;
+    }
+
+    #dvorak404 {
+        width: 79%;
+        height: auto;
+    }
+    
+    .nav {
+        height: 65px;
+        width: fit-content;
+        float: right;
+        visibility: hidden;
+    }
+
+    #hr2 {
+        display: none;
+    }
+    
+    .mobileNav {
+        position: absolute;
+        right: 0;
+        top: 0;
+        padding-right: 5px;
+        width: 15%;
+        height: fit-content;
+    }
+
+    .mobileNav a {
+        float: right;
+        text-align: right;
+        font-size: 5.5vw;
+        color: #cc0000;
+        padding: 12px 5px;
+        text-decoration: none;
+        display: inline;
+    }
+
+    .mLink:hover {
+        font-family: 'Playfair Display', serif;
+    }
+
+    .streamLink {
+        color: #cc0000;
+        font-size: 5.2vw;
+        display: inline-block;
+        padding: 7px;
+        margin: 2px;
+        text-align: center;
+    }
+
+    .streamLink:hover, .navBar:hover {
+        font-family: 'Playfair Display', serif;
+        font-size: 1.52em;
+    }
+
+    #imageRightHome {
+        position: absolute;
+        right: 0;
+        padding-right: 10px;
+    }
+
+    #imageLeftHome {
+        display: inline-block;
+        height: 99px;
+        width: fit-content;
+    }
+
+    #video {
+        width: auto;
+        height: auto;
+    }
+
+    #ishtar {
+        width: 80vw;
+        height: 50vw;
+    }
+
+    #belowEye {
+        width: 57.6px;
+        height: 74.4px;
+        float: left;
+    }
+
+    #belowVideo {
+        display: inline-block;
+        width: 100%;
+        margin-top: 30px;
+        height: 200px;
+    }
+
+    #imageLeftAbout {
+        display: none;
+        float: left;
+    }
+
+    #imageRightAbout {
+        display: none;
+        float: right;
+    }
+
+    #aboutText {
+        font-size: 3vw;
+        width: 90%;
+        height: fit-content
+    }
+
+    #aboutMe {
+        font-size: 3vw;
+        white-space: nowrap;
+        width: fit-content;
+    }
+
+    #contact {
+        font-size: 3.5vw;
+        height: fit-content;
+        width: fit-content;
+    }
+
+    #contactText {
+        font-size: 3vw;
+        width: 90%;
+        height: fit-content;
+    }
+
+    #contactFooter {
+        text-align: center;
+        transform: translate(50%) scale(50%);
+        transform-origin: left top;
+    }
+
+    @media screen and (min-width: 700px) {
+        .mobileNav a, .streamLink{
+            font-size: 2.5em
+        }
+        #contact {
+            font-size: 1.5em;
+        }
+    }
+
+/* for desktop */
+@media only screen and (min-width: 1000px) {
+    #headerContent{
+        display: inline-block;
+        height: fit-content;
+        width: 835px;
+    }
+
+    .siteLogo {
+        width: 100%;
+    }
+
+    #theEye {
+        width: 115px;
+        height: 69px;
+    }
+
+    #dvorak404 {
+        width: 715px;
+        height: 69px;
+    }
+
+    #hr1 {
+        display: none;
+    }
+
+    #hr2 {
+        display: block;
+        width: auto;
+    }
+
+    .mobileNav {
+        display: none;
+    }
+
+    .navBar {
+        color: #cc0000;
+        font-size: 2em;
+        border-radius: 3px;
+        display: inline-block;
+        text-decoration: none;
+        padding-bottom: 1px;
+        padding: 8px;
+        margin-bottom: 1px;
+        margin: 5px;
+        margin-top: 7px;
+        text-align: center;
+    }
+
+    .nav {
+        height: 65px;
+        width: 350px;
+        float: right;
+        visibility: visible;
+    }
+
+    .streamLink {
+        color: #cc0000;
+        font-size: 2em;
+        display: inline-block;
+        padding: 7px;
+        margin: 5px;
+        text-align: center;
+    }
+
+    .streamLink:hover, .navBar:hover {
+        font-family: 'Playfair Display', serif;
+        font-size: 1.9em;
+    }
+    
+    #homeContent {
+        margin: auto;
+        width: 960px;
+    }
+
+    #video {
+        position: relative;
+        padding: auto;
+        margin: auto;
+        width: 840px;
+        height: auto;
+    }
+
+    #ishtar {
+        width: 840px;
+        height: 472.5px;
+    }
+
+    #imageLeftHome {
+        display: inline-block;
+        height: fit-content;
+        width: fit-content;
+    }
+
+    #imageRightHome {
+        position: relative;
+        float: right;
+        padding: 0;
+    }
+    
+    #linksHome {
+        width: fit-content;
+        height: 100px;
+        margin: auto;
+    }
+
+    #belowEye {
+        float: left;
+    }
+
+    #belowVideo {
+        margin: auto;
+    }
+
+    #aboutContent {
+        width: 1420px;
+    }
+
+    #imageLeftAbout {
+        float: left;
+        display: block;
+    }
+
+    #imageRightAbout {
+        float: right;
+        display: block;
+    }
+
+    #aboutText {
+        margin: auto;
+        width: 700px;
+        font-size: 1em;
+    }
+
+    #aboutMe {
+        font-size: 1em;
+    }
+
+    #mobileImageAbout {
+        display: none;
+    }
+
+    #contact {
+        font-size: 1em;
+        height: fit-content;
+    }
+
+    #contactText {
+        font-size: 1em;
+        height: fit-content;
+    }
+    
+    #contactFooter {
+        text-align: center;
+        transform: scale(100%);
+    }
+}
